@@ -100,7 +100,9 @@ int main() {
   char encrypted[100] = {' '};
   char decrypted[100];
   
+  printf("Enter the Plain Text:");
   scanf("%[^\n]", pt);
+  printf("Enter the Key Text:");
   scanf("%s", kt);
 
   toUppercase(pt);
