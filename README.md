@@ -136,7 +136,9 @@ int main() {
   char encrypted[100] = {' '};
   char decrypted[100];
   
+  printf("Enter the Plain Text:");
   scanf("%[^\n]", pt);
+  printf("Enter the Key Text:");
   scanf("%s", kt);
 
   toUppercase(pt);
@@ -160,9 +162,10 @@ int main() {
   printf("decrypted: %s\n", decrypted);
   
 }
-
 ```
 
-
-
 ## OUTPUT:
+<img width="619" height="308" alt="image" src="https://github.com/user-attachments/assets/01791d3b-f789-4f94-8597-2a5e1423730c" />
+
+## RESULT:
+Successfully made a C program to implement the Playfair Substitution technique.
